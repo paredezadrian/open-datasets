@@ -12,15 +12,15 @@ This is a high-quality conversational dataset designed for training transformer-
 - **Total Messages**: 66 (33 user, 33 assistant)
 - **Average Message Length**: 654 characters
 - **Topics**: 15+ categories
-- **Quality**: ✅ All conversations pass validation
+- **Quality**: All conversations pass validation
 - **Formats**: Alpaca, ChatML, Simple prompt-completion
 
 ## Content Categories
 
-- 🔬 **Technical & Educational**: Programming, AI/ML, science
-- 🛠️ **Practical Life Skills**: Health, career, finance
-- 🎨 **Creative & Personal**: Storytelling, hobbies, relationships
-- ⚡ **Quick Reference**: Facts, calculations, definitions
+- **Technical & Educational**: Programming, AI/ML, science
+- **Practical Life Skills**: Health, career, finance
+- **Creative & Personal**: Storytelling, hobbies, relationships
+- **Quick Reference**: Facts, calculations, definitions
 
 ## Repository Structure
 
@@ -58,10 +58,10 @@ open-datasets/
 ## Usage
 
 The dataset comes with professional tools for:
-- ✅ Dataset validation and analysis
-- 🔄 Format conversion (Alpaca, ChatML, Simple)
-- 📊 Automatic train/validation/test splitting
-- 🧠 Context-aware example generation
+- Dataset validation and analysis
+- Format conversion (Alpaca, ChatML, Simple)
+- Automatic train/validation/test splitting
+- Context-aware example generation
 
 ## Training Formats
 

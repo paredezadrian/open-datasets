@@ -18,19 +18,19 @@ This dataset contains 29 professionally curated conversations designed for train
 
 ## Content Categories
 
-- 🔬 **Technical**: Programming, AI/ML, science explanations
-- 🛠️ **Practical**: Health, career, finance, troubleshooting  
-- 🎨 **Creative**: Storytelling, hobbies, personal advice
-- ⚡ **Reference**: Quick facts, calculations, definitions
+- **Technical**: Programming, AI/ML, science explanations
+- **Practical**: Health, career, finance, troubleshooting
+- **Creative**: Storytelling, hobbies, personal advice
+- **Reference**: Quick facts, calculations, definitions
 
 ## Features
 
-✅ **Professional Quality**: All conversations pass validation  
-🔄 **Multiple Formats**: Ready for Alpaca, ChatML, or simple training  
-📊 **Pre-split**: Train/validation/test splits included  
-🛠️ **Tools Included**: Analysis and preprocessing utilities  
-📚 **Well Documented**: Comprehensive guides and examples  
-🧪 **Tested**: Full unit test coverage  
+**Professional Quality**: All conversations pass validation
+**Multiple Formats**: Ready for Alpaca, ChatML, or simple training
+**Pre-split**: Train/validation/test splits included
+**Tools Included**: Analysis and preprocessing utilities
+**Well Documented**: Comprehensive guides and examples
+**Tested**: Full unit test coverage
 
 ## Quick Start
 
@@ -70,7 +70,7 @@ The dataset includes pre-formatted files for popular training frameworks:
 ## Author
 
 **Adrian Paredez**
-📧 contact@paredez.dev | 🐙 [@paredezadrian](https://github.com/paredezadrian)
+contact@paredez.dev | [@paredezadrian](https://github.com/paredezadrian)
 
 ## License
 
@@ -78,4 +78,4 @@ MIT License - Free for research and commercial use
 
 ---
 
-📖 **[View Full Documentation](README.md)** | 🔧 **[See Examples](examples/)** | 🧪 **[Run Tests](tests/)**
+[View Full Documentation](README.md) | [See Examples](examples/) | [Run Tests](tests/)

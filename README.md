@@ -7,11 +7,11 @@
 
 Created and maintained by Adrian Paredez
 
-## 🎯 Mission
+## Mission
 
 To provide researchers, developers, and AI enthusiasts with professionally curated, well-documented, and ready-to-use datasets for training and evaluating machine learning models.
 
-## 📊 Available Datasets
+## Available Datasets
 
 ### [Conversational AI Dataset](conversational-ai-dataset/)
 High-quality conversational examples for training transformer-based AI models (GPT-style).
@@ -20,7 +20,7 @@ High-quality conversational examples for training transformer-based AI models (G
 - **Size**: 29 conversations, 66 messages
 - **Formats**: Alpaca, ChatML, Simple prompt-completion
 - **Use Cases**: Chatbot training, instruction following, conversational AI
-- **Quality**: ✅ Professionally curated and validated
+- **Quality**: Professionally curated and validated
 
 **Quick Stats:**
 - 15+ topic categories (technical, practical, creative)
@@ -28,11 +28,11 @@ High-quality conversational examples for training transformer-based AI models (G
 - Ready-to-use train/validation/test splits
 - Comprehensive tooling and documentation
 
-[📖 View Documentation](conversational-ai-dataset/README.md) | [🚀 Quick Start](conversational-ai-dataset/PROJECT_INFO.md)
+[View Documentation](conversational-ai-dataset/README.md) | [Quick Start](conversational-ai-dataset/PROJECT_INFO.md)
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Clone the Repository
 ```bash
@@ -49,7 +49,7 @@ cd conversational-ai-dataset
 cat README.md
 ```
 
-## 📁 Repository Structure
+## Repository Structure
 
 ```
 open-datasets/
@@ -65,28 +65,28 @@ open-datasets/
 └── [future-datasets]/               # Additional datasets coming soon
 ```
 
-## 🎯 Dataset Categories
+## Dataset Categories
 
-### 🤖 Natural Language Processing
+### Natural Language Processing
 - **Conversational AI Dataset** - Training data for chatbots and conversational models
 
-### 📈 Coming Soon
+### Coming Soon
 - **Text Classification Dataset** - Multi-label text classification examples
 - **Question Answering Dataset** - Q&A pairs for reading comprehension
 - **Sentiment Analysis Dataset** - Labeled sentiment data across domains
 
-## ✨ Quality Standards
+## Quality Standards
 
 All datasets in this collection adhere to strict quality standards:
 
-- ✅ **Professional Curation**: Manually reviewed and validated
-- 📚 **Comprehensive Documentation**: Clear usage guides and examples
-- 🔧 **Ready-to-Use Tools**: Analysis and preprocessing utilities included
-- 🧪 **Tested**: Unit tests ensure data integrity
-- 📊 **Multiple Formats**: Support for popular ML frameworks
-- 🏷️ **Proper Licensing**: Clear usage rights and attribution
+- **Professional Curation**: Manually reviewed and validated
+- **Comprehensive Documentation**: Clear usage guides and examples
+- **Ready-to-Use Tools**: Analysis and preprocessing utilities included
+- **Tested**: Unit tests ensure data integrity
+- **Multiple Formats**: Support for popular ML frameworks
+- **Proper Licensing**: Clear usage rights and attribution
 
-## 🤝 Contributing
+## Contributing
 
 Interested in contributing a dataset or improving existing ones?
 
@@ -108,22 +108,39 @@ Interested in contributing a dataset or improving existing ones?
 This repository and all datasets are released under the [MIT License](LICENSE).
 
 ### Usage Rights
-- ✅ Commercial use
-- ✅ Modification
-- ✅ Distribution
-- ✅ Private use
+- Commercial use
+- Modification
+- Distribution
+- Private use
 
 ### Requirements
 - Include copyright notice
 - Include license text
 
-## 🔗 Connect
+## Citation
+
+If you use any datasets from this collection in your research or projects, please cite:
+
+```bibtex
+@misc{paredez2025opendatasets,
+  author = {Adrian Paredez},
+  title = {Open Datasets: A Curated Collection for Machine Learning and AI Research},
+  year = {2025},
+  publisher = {GitHub},
+  journal = {GitHub repository},
+  howpublished = {\url{https://github.com/paredezadrian/open-datasets}}
+}
+```
+
+For individual datasets, please also refer to their specific documentation for additional citation information.
+
+## Contact
 
 **Adrian Paredez**
-- 📧 Email: contact@paredez.dev
-- 🐙 GitHub: [@paredezadrian](https://github.com/paredezadrian)
+- Email: contact@paredez.dev
+- GitHub: [@paredezadrian](https://github.com/paredezadrian)
 
-## 📈 Stats
+## Statistics
 
 - **Total Datasets**: 1 (growing!)
 - **Total Data Points**: 66 messages, 29 conversations
@@ -132,11 +149,11 @@ This repository and all datasets are released under the [MIT License](LICENSE).
 
 ---
 
-⭐ **Star this repository** if you find these datasets useful for your research or projects!
+**Star this repository** if you find these datasets useful for your research or projects.
 
-🔔 **Watch** for updates as new datasets are added regularly.
+**Watch** for updates as new datasets are added regularly.
 
-📢 **Share** with the ML/AI community to help others discover quality training data.
+**Share** with the ML/AI community to help others discover quality training data.
 
 ---
 

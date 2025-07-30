@@ -73,42 +73,42 @@ conversational-ai-dataset/
 | **Topics Covered** | 15+ categories |
 | **Quality Validation** | ✅ All conversations pass validation |
 
-## 🎯 Content Categories
+## Content Categories
 
-### 🔬 Technical & Educational
+### Technical & Educational
 - Programming (Python, web development)
 - Science explanations (quantum computing, water cycle)
 - Technology concepts (AI/ML, cryptocurrency)
 
-### 🛠️ Practical Life Skills
+### Practical Life Skills
 - Health and wellness advice
 - Career development (interviews, workplace)
 - Financial guidance and decision-making
 - Home maintenance and troubleshooting
 
-### 🎨 Creative & Personal
+### Creative & Personal
 - Creative writing and storytelling
 - Hobby guidance (guitar, photography)
 - Personal relationship advice
 - Emotional support and guidance
 
-### ⚡ Quick Reference
+### Quick Reference
 - Simple calculations and facts
 - Brief explanations and definitions
 
-## 🛠️ Tools & Features
+## Tools & Features
 
 ### Dataset Analyzer (`src/tools/dataset_analyzer.py`)
-- ✅ Validate dataset format and structure
-- 📊 Generate comprehensive statistics
-- 🔗 Combine multiple dataset files
-- 🐛 Check for formatting errors and inconsistencies
+- Validate dataset format and structure
+- Generate comprehensive statistics
+- Combine multiple dataset files
+- Check for formatting errors and inconsistencies
 
 ### Data Preprocessor (`src/tools/data_preprocessor.py`)
-- 🔄 Convert conversations to training examples
-- 📝 Support for multiple formats (Alpaca, ChatML, Simple)
-- 📊 Automatic train/validation/test splitting
-- 🧠 Context-aware example generation
+- Convert conversations to training examples
+- Support for multiple formats (Alpaca, ChatML, Simple)
+- Automatic train/validation/test splitting
+- Context-aware example generation
 
 ## 📋 Supported Training Formats
 
@@ -170,7 +170,7 @@ splits = split_dataset(examples, train_ratio=0.8, val_ratio=0.1, test_ratio=0.1)
 save_formatted_dataset(splits["train"], "my_train_data.jsonl", "alpaca")
 ```
 
-## ✨ Quality Standards
+## Quality Standards
 
 ### Response Characteristics
 - **Helpful & Accurate:** Factually correct, practical advice
@@ -184,7 +184,7 @@ save_formatted_dataset(splits["train"], "my_train_data.jsonl", "alpaca")
 - Follow-up questions to encourage interaction
 - Professional disclaimers for sensitive topics
 
-## 📈 Training Recommendations
+## Training Recommendations
 
 ### Hyperparameters
 - **Batch size:** Start with 4-8 for fine-tuning
@@ -198,21 +198,21 @@ save_formatted_dataset(splits["train"], "my_train_data.jsonl", "alpaca")
 - Consider data augmentation for domain-specific use cases
 - Evaluate with both automated metrics and human review
 
-## 🔍 Validation & Testing
+## Validation & Testing
 
 All conversations pass comprehensive validation:
-- ✅ Proper JSON structure
-- ✅ Required fields present
-- ✅ Valid role assignments
-- ✅ Non-empty content
-- ✅ Reasonable message lengths
+- Proper JSON structure
+- Required fields present
+- Valid role assignments
+- Non-empty content
+- Reasonable message lengths
 
 Run tests:
 ```bash
 pytest tests/
 ```
 
-## 🚀 Extending the Dataset
+## Extending the Dataset
 
 ### Adding New Conversations
 1. Follow the existing JSON format in `data/raw/`
@@ -226,11 +226,26 @@ pytest tests/
 - Different personality styles
 - Error handling and clarification examples
 
-## 📄 License
+## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## 🤝 Contributing
+## Citation
+
+If you use this dataset in your research or projects, please cite:
+
+```bibtex
+@misc{paredez2025conversational,
+  author = {Adrian Paredez},
+  title = {Conversational AI Dataset: High-Quality Examples for Training Transformer Models},
+  year = {2025},
+  publisher = {GitHub},
+  journal = {GitHub repository},
+  howpublished = {\url{https://github.com/paredezadrian/open-datasets/tree/main/conversational-ai-dataset}}
+}
+```
+
+## Contributing
 
 Contributions are welcome! Please:
 - Maintain the established format and quality standards
@@ -239,13 +254,13 @@ Contributions are welcome! Please:
 - Follow the code style guidelines (black, flake8)
 - Add tests for new functionality
 
-## 📚 Documentation
+## Documentation
 
 - [Technical Documentation](docs/technical_documentation.md)
 - [Configuration Guide](configs/dataset_config.yaml)
 - [Examples](examples/)
 
-## 🔗 Links
+## Links
 
 - **Repository:** [GitHub](https://github.com/paredezadrian/open-datasets)
 - **Issues:** [Bug Tracker](https://github.com/paredezadrian/open-datasets/issues)
