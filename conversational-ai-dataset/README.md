@@ -4,7 +4,7 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
 
-**Part of the [Open Datasets](https://github.com/paredezadrian/open-datasets) collection by [Adrian Paredez](https://paredez.dev)**
+**Part of the [Open Datasets](https://github.com/paredezadrian/open-datasets) collection by Adrian Paredez**
 
 A professionally organized, high-quality dataset of conversational examples designed for training transformer-based AI models (GPT-style). This dataset contains natural, helpful, and engaging conversations across diverse topics and conversation styles.
 
@@ -250,7 +250,7 @@ Contributions are welcome! Please:
 - **Repository:** [GitHub](https://github.com/paredezadrian/open-datasets)
 - **Issues:** [Bug Tracker](https://github.com/paredezadrian/open-datasets/issues)
 - **Documentation:** [Docs](docs/)
-- **Author:** [Adrian Paredez](https://paredez.dev)
+- **Author:** Adrian Paredez
 
 ---
 

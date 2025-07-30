@@ -82,7 +82,6 @@ Ready-to-use formats for popular training frameworks:
 
 **Adrian Paredez**
 - GitHub: [@paredezadrian](https://github.com/paredezadrian)
-- Website: [paredez.dev](https://paredez.dev)
 - Email: contact@paredez.dev
 
 ## License

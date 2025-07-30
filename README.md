@@ -5,7 +5,7 @@
 
 **A curated collection of high-quality datasets for machine learning and AI research**
 
-Created and maintained by [Adrian Paredez](https://paredez.dev)
+Created and maintained by Adrian Paredez
 
 ## 🎯 Mission
 
@@ -120,7 +120,6 @@ This repository and all datasets are released under the [MIT License](LICENSE).
 ## 🔗 Connect
 
 **Adrian Paredez**
-- 🌐 Website: [paredez.dev](https://paredez.dev)
 - 📧 Email: contact@paredez.dev
 - 🐙 GitHub: [@paredezadrian](https://github.com/paredezadrian)
 

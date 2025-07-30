@@ -65,7 +65,6 @@ dataset-analyzer = "src.tools.dataset_analyzer:main"
 data-preprocessor = "src.tools.data_preprocessor:main"
 
 [project.urls]
-Homepage = "https://paredez.dev"
 Repository = "https://github.com/paredezadrian/open-datasets.git"
 Documentation = "https://github.com/paredezadrian/open-datasets/blob/main/conversational-ai-dataset/README.md"
 "Bug Tracker" = "https://github.com/paredezadrian/open-datasets/issues"

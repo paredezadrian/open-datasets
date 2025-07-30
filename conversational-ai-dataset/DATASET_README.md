@@ -69,8 +69,8 @@ The dataset includes pre-formatted files for popular training frameworks:
 
 ## Author
 
-**Adrian Paredez**  
-🌐 [paredez.dev](https://paredez.dev) | 📧 contact@paredez.dev | 🐙 [@paredezadrian](https://github.com/paredezadrian)
+**Adrian Paredez**
+📧 contact@paredez.dev | 🐙 [@paredezadrian](https://github.com/paredezadrian)
 
 ## License
 
