@@ -4,16 +4,16 @@
 
 ## Overview
 
-This dataset contains 29 professionally curated conversations designed for training GPT-style AI models. Each conversation demonstrates natural, helpful, and engaging interactions across diverse topics.
+This dataset contains 60 professionally curated conversations designed for training GPT-style AI models. Each conversation demonstrates natural, helpful, and engaging interactions across diverse topics.
 
 ## Quick Stats
 
 | Metric | Value |
 |--------|-------|
-| **Conversations** | 29 |
-| **Messages** | 66 (33 user, 33 assistant) |
-| **Avg Message Length** | 654 characters |
-| **Topics** | 15+ categories |
+| **Conversations** | 60 |
+| **Messages** | 156 (78 user, 78 assistant) |
+| **Avg Message Length** | 842 characters |
+| **Topics** | 25+ categories |
 | **Formats** | Alpaca, ChatML, Simple |
 
 ## Content Categories

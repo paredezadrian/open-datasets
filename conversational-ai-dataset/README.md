@@ -66,12 +66,12 @@ conversational-ai-dataset/
 
 | Metric | Value |
 |--------|-------|
-| **Total Conversations** | 29 |
-| **Total Messages** | 66 (33 user, 33 assistant) |
-| **Average Conversation Length** | 2.3 messages |
-| **Average Message Length** | 654 characters |
-| **Topics Covered** | 15+ categories |
-| **Quality Validation** | ✅ All conversations pass validation |
+| **Total Conversations** | 60 |
+| **Total Messages** | 156 (78 user, 78 assistant) |
+| **Average Conversation Length** | 2.6 messages |
+| **Average Message Length** | 842 characters |
+| **Topics Covered** | 25+ categories |
+| **Quality Validation** | All conversations pass validation |
 
 ## Content Categories
 
@@ -272,4 +272,4 @@ Contributions are welcome! Please:
 **Created:** 2025-07-30
 **Author:** Adrian Paredez
 **Version:** 1.0.0
-**Total Examples:** 33 training examples from 29 conversations
+**Total Examples:** 96 training examples from 60 conversations

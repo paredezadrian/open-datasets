@@ -17,7 +17,7 @@ To provide researchers, developers, and AI enthusiasts with professionally curat
 High-quality conversational examples for training transformer-based AI models (GPT-style).
 
 - **Type**: Conversational AI / NLP
-- **Size**: 29 conversations, 66 messages
+- **Size**: 60 conversations, 156 messages
 - **Formats**: Alpaca, ChatML, Simple prompt-completion
 - **Use Cases**: Chatbot training, instruction following, conversational AI
 - **Quality**: Professionally curated and validated
@@ -143,7 +143,7 @@ For individual datasets, please also refer to their specific documentation for a
 ## Statistics
 
 - **Total Datasets**: 1 (growing!)
-- **Total Data Points**: 66 messages, 29 conversations
+- **Total Data Points**: 156 messages, 60 conversations
 - **Languages Supported**: English (more coming)
 - **ML Frameworks**: PyTorch, Transformers, Custom
 

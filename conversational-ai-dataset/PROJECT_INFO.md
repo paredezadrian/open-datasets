@@ -4,14 +4,14 @@
 
 ## About This Dataset
 
-This is a high-quality conversational dataset designed for training transformer-based AI models (GPT-style). It contains 29 natural, helpful, and engaging conversations across diverse topics and conversation styles.
+This is a high-quality conversational dataset designed for training transformer-based AI models (GPT-style). It contains 60 natural, helpful, and engaging conversations across diverse topics and conversation styles.
 
 ## Quick Stats
 
-- **Total Conversations**: 29
-- **Total Messages**: 66 (33 user, 33 assistant)
-- **Average Message Length**: 654 characters
-- **Topics**: 15+ categories
+- **Total Conversations**: 60
+- **Total Messages**: 156 (78 user, 78 assistant)
+- **Average Message Length**: 842 characters
+- **Topics**: 25+ categories
 - **Quality**: All conversations pass validation
 - **Formats**: Alpaca, ChatML, Simple prompt-completion
 
