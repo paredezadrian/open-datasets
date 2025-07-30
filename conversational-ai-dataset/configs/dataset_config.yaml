@@ -1,0 +1,94 @@
+# Configuration file for the Conversational AI Dataset
+
+# Dataset Information
+dataset:
+  name: "conversational-ai-dataset"
+  version: "1.0.0"
+  description: "High-quality conversational dataset for training transformer AI models"
+  license: "MIT"
+  
+# File Paths
+paths:
+  data_dir: "data"
+  raw_dir: "data/raw"
+  processed_dir: "data/processed"
+  splits_dir: "data/splits"
+  docs_dir: "docs"
+  examples_dir: "examples"
+  
+# Dataset Files
+files:
+  single_turn: "single_turn_conversations.jsonl"
+  multi_turn: "multi_turn_conversations.jsonl"
+  combined: "combined_dataset.jsonl"
+  
+# Data Processing Settings
+processing:
+  # Dataset splitting ratios
+  train_ratio: 0.8
+  validation_ratio: 0.1
+  test_ratio: 0.1
+  
+  # Random seed for reproducibility
+  random_seed: 42
+  
+  # Include conversation context in training examples
+  include_context: true
+  
+  # Maximum conversation length (in messages)
+  max_conversation_length: 20
+  
+  # Maximum message length (in characters)
+  max_message_length: 2000
+
+# Supported Training Formats
+formats:
+  - name: "alpaca"
+    description: "Alpaca instruction-following format"
+    fields: ["instruction", "input", "output"]
+    
+  - name: "chatml"
+    description: "ChatML conversation format"
+    fields: ["messages"]
+    
+  - name: "simple"
+    description: "Simple prompt-completion format"
+    fields: ["prompt", "completion"]
+
+# Quality Standards
+quality:
+  min_message_length: 10
+  max_message_length: 2000
+  required_fields: ["role", "content"]
+  valid_roles: ["user", "assistant"]
+  
+# Content Categories
+categories:
+  - "technical_explanations"
+  - "practical_advice"
+  - "creative_tasks"
+  - "problem_solving"
+  - "educational_content"
+  - "personal_support"
+  - "quick_reference"
+  
+# Validation Rules
+validation:
+  check_json_format: true
+  check_required_fields: true
+  check_message_length: true
+  check_conversation_flow: true
+  check_content_quality: false  # Manual review recommended
+  
+# Analysis Settings
+analysis:
+  generate_statistics: true
+  create_visualizations: false  # Requires matplotlib
+  export_reports: true
+  
+# Export Settings
+export:
+  include_metadata: true
+  pretty_print: false
+  ensure_ascii: false
+  encoding: "utf-8"

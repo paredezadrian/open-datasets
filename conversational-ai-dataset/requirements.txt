@@ -1,0 +1,31 @@
+# Core dependencies for the conversational AI dataset package
+
+# No external dependencies required for core functionality
+# The package uses only Python standard library modules:
+# - json (for JSONL file handling)
+# - os (for file system operations)
+# - random (for dataset splitting)
+# - typing (for type hints)
+# - dataclasses (for data structures)
+# - collections (for Counter)
+
+# Optional dependencies for enhanced functionality:
+# Uncomment the following lines if you want additional features
+
+# For data analysis and visualization
+# pandas>=1.2.0
+# matplotlib>=3.3.0
+# seaborn>=0.11.0
+# numpy>=1.19.0
+
+# For machine learning and training
+# torch>=1.9.0
+# transformers>=4.10.0
+# datasets>=1.12.0
+
+# For development and testing
+# pytest>=6.0.0
+# pytest-cov>=2.0.0
+# black>=21.0.0
+# flake8>=3.8.0
+# mypy>=0.800
